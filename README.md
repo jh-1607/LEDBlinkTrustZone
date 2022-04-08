@@ -2,20 +2,16 @@
  A *working* LED Blink project set up with MPLab Harmony v3 Software Framework and SAM L11 Development Board (SAM L11 MCU). 
 
 ## Why this exists? 
----
 I had trouble getting the example LEDBlink program provided in Atmel START to work. I could additionaly not get the sample MPLab Harmony LED project to work either. So, I sought out to figure out how to initialize devices and peripherals in a TrustZone environment and eventually toggle an LED on the SAM L11 xPlained Pro development board. The MPLab Harmony v3 framework allows you to initialize peripherals easily, making the coding process straightforward however example code provided by the framework has proven to be non functional, at least in my experience. 
 
 ## What this does
----
 All this project does is simply toggle pin 8 otherwise named 'PA07' which is connected to an amber LED on the L11 development board. The board originally did this until I flashed it with example code (go figure). So, after messing around, I came up with this which is two implementations that both toggle the same led on pin 8, one using a TrustZone initialized timer, and one using a non-secure initialized timer. This demonstrates the use of TrustZone to hide functions from a non secure implementation.  
 
 ## Project structure
----
 - The folder named LEDBlink contains an implementation using the non-secure region of memory.
 - The folder named LEDBlinkSecure contains an implementation using the secure region of memory.
 
 ## Implementation
----
 ### Secure Implementation:
 ```C
 // Global variable.
