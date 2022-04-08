@@ -110,5 +110,7 @@ int main ( void )
 ## Things to note
 - It is possible to define functions within the secure region and interface them with the nonsecure program by means of a region of memory named the NSC which stands for 'Non Secure Callable' Memory. I could elaborate on this, but this would lengthen the readme substantially. 
     - See "nonsecure_entry.c" in the "trustZone" folder inside of the "firmware" folder of the secure portion of any one of the two examples. Also note the typedef within each implementation.
-
+## Useful resources:
+- https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony
+- https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide
 
