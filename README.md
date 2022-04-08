@@ -108,7 +108,7 @@ int main ( void )
 - The above code is from "main.c" located in LEDBlink\NonSecure\firmware\src
 - Note the difference between this implemenation and the secure implementation.
 ## Things to note
-- It is possible to define functions within the secure region and interface them with the nonsecure program by means of a region on memory named the NSC which stands for 'Non Secure Callable' Memory. I could elaborate on this, but this would lengthen the readme substantially. 
+- It is possible to define functions within the secure region and interface them with the nonsecure program by means of a region of memory named the NSC which stands for 'Non Secure Callable' Memory. I could elaborate on this, but this would lengthen the readme substantially. 
     - See "nonsecure_entry.c" in the "trustZone" folder inside of the "firmware" folder of the secure portion of any one of the two examples. Also note the typedef within each implementation.
 
 
