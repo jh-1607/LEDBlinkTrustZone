@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/LEDBlink_Secure.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>32768</length>
+      <used>1244</used>
+      <free>31524</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>32</used>
+      <free>8160</free>
+    </memory>
+  </executable>
+</project>

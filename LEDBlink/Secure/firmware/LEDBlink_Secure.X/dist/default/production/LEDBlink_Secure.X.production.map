@@ -1,0 +1,1087 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+                              build/default/production/_ext/1171490990/startup_xc32.o (__pic32c_data_initialization)
+/opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+                              build/default/production/_ext/1360937237/main.o (__gnu_cmse_nonsecure_call)
+/opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+                              build/default/production/_ext/1171490990/startup_xc32.o (__libc_init_array)
+/opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                              build/default/production/_ext/1593096446/plib_nvmctrl.o (memcpy)
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                         0           0xf4         244   
+.text                         0xf4           0x30          48  App's exec code 
+.text.CLOCK_Initialize       0x124           0xf0         240   
+.text.__pic32c_data_ini      0x214           0x94         148   
+.text.Reset_Handler          0x2a8           0x54          84   
+.text                        0x2fc           0x50          80  App's exec code 
+.text.__libc_init_array      0x34c           0x50          80   
+.text.PM_Initialize          0x39c           0x3a          58   
+.text.main                   0x3d6           0x34          52   
+.text                        0x40a           0x32          50  App's exec code 
+.text.SYS_Initialize         0x43c           0x28          40   
+.dinit                       0x464           0x20          32   
+.text.NVIC_Initialize        0x484           0x1e          30   
+.text.PORT_Initialize        0x4a2           0x16          22   
+.text.NVMCTRL_Initializ      0x4b8           0x12          18   
+.text.EVSYS_Initialize       0x4ca            0x2           2   
+.text.Dummy_Handler          0x4cc            0x2           2   
+.text.NonMaskableInt_Ha      0x4ce            0x2           2   
+.text.HardFault_Handler      0x4d0            0x2           2   
+.text.Dummy_App_Func         0x4d2            0x2           2   
+.gnu.sgstubs                0x7e00            0x8           8   
+      Total ROM used  :       0x4dc        1244  3.8% of 0x8000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :       0x4dc        1244  3.8% of 0x8000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss                    0x20000000           0x20          32  Uninitialized data 
+         Total RAM used  :        0x20          32  0.4% of 0x2000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :        0x20          32  0.4% of 0x2000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20000028          0x200         512  Reserved for heap 
+stack                   0x20000240         0x1db8        7608  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .xc_stack_usage
+                0x00000000       0x26 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .data          0x00000000        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .xc_stack_usage
+                0x00000000       0x3c /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .text          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .data          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .text          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .data          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .text          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .data          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Enable
+                0x00000000        0x8 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Disable
+                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Restore
+                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
+ .text          0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .data          0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_CacheInvalidate
+                0x00000000       0x14 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_Read
+                0x00000000       0x10 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_PageWrite
+                0x00000000       0x50 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_RowErase
+                0x00000000       0x38 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferWrite
+                0x00000000       0x48 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferCommit
+                0x00000000       0x1c build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_ErrorGet
+                0x00000000       0x28 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_IsBusy
+                0x00000000       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_RegionLock
+                0x00000000       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_RegionUnlock
+                0x00000000       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_SecureRegionLock
+                0x00000000       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_SecureRegionUnlock
+                0x00000000       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_DataScrambleKeySet
+                0x00000000       0x10 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text.NVMCTRL_DataScrambleEnable
+                0x00000000       0x36 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .data          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .bss           0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_IdleModeEnter
+                0x00000000       0x1e build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_StandbyModeEnter
+                0x00000000       0x1e build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_OffModeEnter
+                0x00000000       0x20 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_ConfigurePerformanceLevel
+                0x00000000       0x50 build/default/production/_ext/829342769/plib_pm.o
+ .text          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .data          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupRead
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupWrite
+                0x00000000        0xc build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupLatchRead
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupSet
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupClear
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupToggle
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupInputEnable
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupOutputEnable
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_PinPeripheralFunctionConfig
+                0x00000000       0x48 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_PinGPIOConfig
+                0x00000000       0x20 build/default/production/_ext/1865521619/plib_port.o
+ .text          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .data          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .bss           0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .text._mon_getc
+                0x00000000        0x4 build/default/production/_ext/163028504/xc32_monitor.o
+ .text._mon_putc
+                0x00000000        0x2 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_info    0x00000000      0x2c6 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x80 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_loc     0x00000000       0x25 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_line    0x00000000       0x76 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .comment       0x00000000       0x54 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/default/production/_ext/163028504/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x30 build/default/production/_ext/163028504/xc32_monitor.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .text.DebugMonitor_Handler
+                0x00000000        0x2 build/default/production/_ext/1171490990/exceptions.o
+ .text.MemoryManagement_Handler
+                0x00000000        0x2 build/default/production/_ext/1171490990/exceptions.o
+ .text.BusFault_Handler
+                0x00000000        0x2 build/default/production/_ext/1171490990/exceptions.o
+ .text.UsageFault_Handler
+                0x00000000        0x2 build/default/production/_ext/1171490990/exceptions.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .text._exit    0x00000000        0x2 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_info    0x00000000      0xf1a build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_abbrev  0x00000000      0x1cc build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_loc     0x00000000       0x15 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_aranges
+                0x00000000       0x20 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_ranges  0x00000000       0x10 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_line    0x00000000      0x11f build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_str     0x00000000        0xe build/default/production/_ext/1171490990/libc_syscalls.o
+ .comment       0x00000000       0x54 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_frame   0x00000000       0x20 build/default/production/_ext/1171490990/libc_syscalls.o
+ .ARM.attributes
+                0x00000000       0x30 build/default/production/_ext/1171490990/libc_syscalls.o
+ .text          0x00000000        0x0 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .data          0x00000000        0x0 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .text          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .xc_stack_usage
+                0x00000000       0x2a /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+ .xc_stack_usage
+                0x00000000       0x27 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .xc_stack_usage
+                0x00000000       0x1f /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage
+                0x00000000       0x14 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x00000000       0x12 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .comment       0x00000000       0x54 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000       0x30 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .comment       0x00000000       0x54 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x30 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xrl
+rom_nsc          0x00007e00         0x00000200         xrl
+ram              0x20000000         0x00002000         xw !r
+config_00804000  0x00804000         0x00000004
+config_0080C000  0x0080c000         0x00000004
+config_00804004  0x00804004         0x00000004
+config_00804008  0x00804008         0x00000004
+config_0080C0EC  0x0080c0ec         0x00000004
+config_0080400C  0x0080400c         0x00000004
+config_0080C010  0x0080c010         0x00000004
+config_00804018  0x00804018         0x00000004
+config_00804014  0x00804014         0x00000004
+config_0080C018  0x0080c018         0x00000004
+config_0080C004  0x0080c004         0x00000004
+config_0080C01C  0x0080c01c         0x00000004
+config_0080C020  0x0080c020         0x00000004
+config_0080C024  0x0080c024         0x00000004
+config_0080C028  0x0080c028         0x00000004
+config_0080401C  0x0080401c         0x00000004
+config_0080C02C  0x0080c02c         0x00000004
+config_0080C030  0x0080c030         0x00000004
+config_0080C008  0x0080c008         0x00000004
+config_0080C034  0x0080c034         0x00000004
+config_0080C038  0x0080c038         0x00000004
+config_0080C03C  0x0080c03c         0x00000004
+config_0080C040  0x0080c040         0x00000004
+config_0080C0E0  0x0080c0e0         0x00000004
+config_0080C044  0x0080c044         0x00000004
+config_0080C048  0x0080c048         0x00000004
+config_0080C04C  0x0080c04c         0x00000004
+config_0080C050  0x0080c050         0x00000004
+config_0080C054  0x0080c054         0x00000004
+config_0080C058  0x0080c058         0x00000004
+config_0080C0E4  0x0080c0e4         0x00000004
+config_0080C05C  0x0080c05c         0x00000004
+config_0080C060  0x0080c060         0x00000004
+config_00804010  0x00804010         0x00000004
+config_0080C064  0x0080c064         0x00000004
+config_0080C068  0x0080c068         0x00000004
+config_0080C06C  0x0080c06c         0x00000004
+config_0080C0F0  0x0080c0f0         0x00000004
+config_0080C0E8  0x0080c0e8         0x00000004
+config_0080C0F4  0x0080c0f4         0x00000004
+config_0080C0F8  0x0080c0f8         0x00000004
+config_0080C014  0x0080c014         0x00000004
+config_0080C0FC  0x0080c0fc         0x00000004
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+LOAD build/default/production/_ext/1984496892/plib_clock.o
+LOAD build/default/production/_ext/1986646378/plib_evsys.o
+LOAD build/default/production/_ext/1865468468/plib_nvic.o
+LOAD build/default/production/_ext/1593096446/plib_nvmctrl.o
+LOAD build/default/production/_ext/829342769/plib_pm.o
+LOAD build/default/production/_ext/1865521619/plib_port.o
+LOAD build/default/production/_ext/163028504/xc32_monitor.o
+LOAD build/default/production/_ext/1171490990/interrupts.o
+LOAD build/default/production/_ext/1171490990/initialization.o
+LOAD build/default/production/_ext/1171490990/exceptions.o
+LOAD build/default/production/_ext/1171490990/startup_xc32.o
+LOAD build/default/production/_ext/1171490990/libc_syscalls.o
+LOAD build/default/production/_ext/1903470166/nonsecure_entry.o
+LOAD build/default/production/_ext/1360937237/main.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00008000                __rom_end = (ORIGIN (rom) + LENGTH (rom))
+                0x00008000                __rom_nsc_end = (ORIGIN (rom_nsc) + LENGTH (rom_nsc))
+                0x20002000                __ram_end = (ORIGIN (ram) + LENGTH (ram))
+
+.config_00804000
+                0x00804000        0x4
+ *(.config_00804000)
+ .config_00804000
+                0x00804000        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804000                __config_00804000
+
+.config_0080C000
+                0x0080c000        0x4
+ *(.config_0080C000)
+ .config_0080C000
+                0x0080c000        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c000                __config_0080C000
+
+.config_00804004
+                0x00804004        0x4
+ *(.config_00804004)
+ .config_00804004
+                0x00804004        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804004                __config_00804004
+
+.config_00804008
+                0x00804008        0x4
+ *(.config_00804008)
+ .config_00804008
+                0x00804008        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804008                __config_00804008
+
+.config_0080C0EC
+                0x0080c0ec        0x4
+ *(.config_0080C0EC)
+ .config_0080C0EC
+                0x0080c0ec        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0ec                __config_0080C0EC
+
+.config_0080400C
+                0x0080400c        0x4
+ *(.config_0080400C)
+ .config_0080400C
+                0x0080400c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080400c                __config_0080400C
+
+.config_0080C010
+                0x0080c010        0x4
+ *(.config_0080C010)
+ .config_0080C010
+                0x0080c010        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c010                __config_0080C010
+
+.config_00804018
+                0x00804018        0x4
+ *(.config_00804018)
+ .config_00804018
+                0x00804018        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804018                __config_00804018
+
+.config_00804014
+                0x00804014        0x4
+ *(.config_00804014)
+ .config_00804014
+                0x00804014        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804014                __config_00804014
+
+.config_0080C018
+                0x0080c018        0x4
+ *(.config_0080C018)
+ .config_0080C018
+                0x0080c018        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c018                __config_0080C018
+
+.config_0080C004
+                0x0080c004        0x4
+ *(.config_0080C004)
+ .config_0080C004
+                0x0080c004        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c004                __config_0080C004
+
+.config_0080C01C
+                0x0080c01c        0x4
+ *(.config_0080C01C)
+ .config_0080C01C
+                0x0080c01c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c01c                __config_0080C01C
+
+.config_0080C020
+                0x0080c020        0x4
+ *(.config_0080C020)
+ .config_0080C020
+                0x0080c020        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c020                __config_0080C020
+
+.config_0080C024
+                0x0080c024        0x4
+ *(.config_0080C024)
+ .config_0080C024
+                0x0080c024        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c024                __config_0080C024
+
+.config_0080C028
+                0x0080c028        0x4
+ *(.config_0080C028)
+ .config_0080C028
+                0x0080c028        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c028                __config_0080C028
+
+.config_0080401C
+                0x0080401c        0x4
+ *(.config_0080401C)
+ .config_0080401C
+                0x0080401c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080401c                __config_0080401C
+
+.config_0080C02C
+                0x0080c02c        0x4
+ *(.config_0080C02C)
+ .config_0080C02C
+                0x0080c02c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c02c                __config_0080C02C
+
+.config_0080C030
+                0x0080c030        0x4
+ *(.config_0080C030)
+ .config_0080C030
+                0x0080c030        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c030                __config_0080C030
+
+.config_0080C008
+                0x0080c008        0x4
+ *(.config_0080C008)
+ .config_0080C008
+                0x0080c008        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c008                __config_0080C008
+
+.config_0080C034
+                0x0080c034        0x4
+ *(.config_0080C034)
+ .config_0080C034
+                0x0080c034        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c034                __config_0080C034
+
+.config_0080C038
+                0x0080c038        0x4
+ *(.config_0080C038)
+ .config_0080C038
+                0x0080c038        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c038                __config_0080C038
+
+.config_0080C03C
+                0x0080c03c        0x4
+ *(.config_0080C03C)
+ .config_0080C03C
+                0x0080c03c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c03c                __config_0080C03C
+
+.config_0080C040
+                0x0080c040        0x4
+ *(.config_0080C040)
+ .config_0080C040
+                0x0080c040        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c040                __config_0080C040
+
+.config_0080C0E0
+                0x0080c0e0        0x4
+ *(.config_0080C0E0)
+ .config_0080C0E0
+                0x0080c0e0        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0e0                __config_0080C0E0
+
+.config_0080C044
+                0x0080c044        0x4
+ *(.config_0080C044)
+ .config_0080C044
+                0x0080c044        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c044                __config_0080C044
+
+.config_0080C048
+                0x0080c048        0x4
+ *(.config_0080C048)
+ .config_0080C048
+                0x0080c048        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c048                __config_0080C048
+
+.config_0080C04C
+                0x0080c04c        0x4
+ *(.config_0080C04C)
+ .config_0080C04C
+                0x0080c04c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c04c                __config_0080C04C
+
+.config_0080C050
+                0x0080c050        0x4
+ *(.config_0080C050)
+ .config_0080C050
+                0x0080c050        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c050                __config_0080C050
+
+.config_0080C054
+                0x0080c054        0x4
+ *(.config_0080C054)
+ .config_0080C054
+                0x0080c054        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c054                __config_0080C054
+
+.config_0080C058
+                0x0080c058        0x4
+ *(.config_0080C058)
+ .config_0080C058
+                0x0080c058        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c058                __config_0080C058
+
+.config_0080C0E4
+                0x0080c0e4        0x4
+ *(.config_0080C0E4)
+ .config_0080C0E4
+                0x0080c0e4        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0e4                __config_0080C0E4
+
+.config_0080C05C
+                0x0080c05c        0x4
+ *(.config_0080C05C)
+ .config_0080C05C
+                0x0080c05c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c05c                __config_0080C05C
+
+.config_0080C060
+                0x0080c060        0x4
+ *(.config_0080C060)
+ .config_0080C060
+                0x0080c060        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c060                __config_0080C060
+
+.config_00804010
+                0x00804010        0x4
+ *(.config_00804010)
+ .config_00804010
+                0x00804010        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x00804010                __config_00804010
+
+.config_0080C064
+                0x0080c064        0x4
+ *(.config_0080C064)
+ .config_0080C064
+                0x0080c064        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c064                __config_0080C064
+
+.config_0080C068
+                0x0080c068        0x4
+ *(.config_0080C068)
+ .config_0080C068
+                0x0080c068        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c068                __config_0080C068
+
+.config_0080C06C
+                0x0080c06c        0x4
+ *(.config_0080C06C)
+ .config_0080C06C
+                0x0080c06c        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c06c                __config_0080C06C
+
+.config_0080C0F0
+                0x0080c0f0        0x4
+ *(.config_0080C0F0)
+ .config_0080C0F0
+                0x0080c0f0        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0f0                __config_0080C0F0
+
+.config_0080C0E8
+                0x0080c0e8        0x4
+ *(.config_0080C0E8)
+ .config_0080C0E8
+                0x0080c0e8        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0e8                __config_0080C0E8
+
+.config_0080C0F4
+                0x0080c0f4        0x4
+ *(.config_0080C0F4)
+ .config_0080C0F4
+                0x0080c0f4        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0f4                __config_0080C0F4
+
+.config_0080C0F8
+                0x0080c0f8        0x4
+ *(.config_0080C0F8)
+ .config_0080C0F8
+                0x0080c0f8        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0f8                __config_0080C0F8
+
+.config_0080C014
+                0x0080c014        0x4
+ *(.config_0080C014)
+ .config_0080C014
+                0x0080c014        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c014                __config_0080C014
+
+.config_0080C0FC
+                0x0080c0fc        0x4
+ *(.config_0080C0FC)
+ .config_0080C0FC
+                0x0080c0fc        0x4 build/default/production/_ext/1171490990/initialization.o
+                0x0080c0fc                __config_0080C0FC
+
+.vectors        0x00000000       0xf4
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sfixed = .
+ *(.vectors .vectors.* .vectors_default .vectors_default.*)
+ .vectors       0x00000000       0xf4 build/default/production/_ext/1171490990/interrupts.o
+                0x00000000                exception_table
+ *(.isr_vector)
+ *(.reset*)
+ *(.after_vectors)
+
+.text           0x000000f4       0x30
+                0x000000f4                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x000000f4        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000f4        0x0 linker stubs
+ *veneer.o(.text.*)
+ *nonsecure_entry.o(.text.*)
+ .text.secure_add
+                0x000000f4       0x10 build/default/production/_ext/1903470166/nonsecure_entry.o
+                0x000000f4                __acle_se_secure_add
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000104                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00000104        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+                0x00000104                _init
+ .init          0x00000108        0x8 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+                0x00000110                . = ALIGN (0x4)
+                0x00000110                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000110                __preinit_array_end = .
+                0x00000110                . = ALIGN (0x4)
+                0x00000110                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x00000110        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+                0x00000114                __init_array_end = .
+                0x00000114                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00000114                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00000114        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+                0x00000114                _fini
+ .fini          0x00000118        0x8 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+                0x00000120                . = ALIGN (0x4)
+                0x00000120                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00000120        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x00000124                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x00000124                . = ALIGN (0x4)
+                0x00000124                _efixed = .
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end = .)
+                0x00000124                . = ALIGN (0x4)
+                0x00000124                _etext = .
+                0x00000124                . = ALIGN (0x4)
+
+.gnu.sgstubs    0x00007e00        0x8
+                0x00007e00                _ssgstubs = .
+ .gnu.sgstubs.__stub
+                0x00007e00        0x8 linker stubs
+                0x00007e00                secure_add
+
+.bss            0x20000000        0x0
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_start__ = .
+                0x20000000                _sbss = .
+                0x20000000                _szero = .
+ *(COMMON)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_end__ = .
+                0x20000000                _ebss = .
+                0x20000000                _ezero = .
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _end = .
+                0x20001fff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libm_nano.a
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a
+END GROUP
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtend.o
+LOAD /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+OUTPUT(dist/default/production/LEDBlink_Secure.X.production.elf elf32-littlearm)
+LOAD stack
+LOAD data_init
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x22 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crti.o
+ .ARM.attributes
+                0x00000022       0x30 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .ARM.attributes
+                0x00000052       0x30 build/default/production/_ext/1984496892/plib_clock.o
+ .ARM.attributes
+                0x00000082       0x30 build/default/production/_ext/1986646378/plib_evsys.o
+ .ARM.attributes
+                0x000000b2       0x30 build/default/production/_ext/1865468468/plib_nvic.o
+ .ARM.attributes
+                0x000000e2       0x30 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .ARM.attributes
+                0x00000112       0x30 build/default/production/_ext/829342769/plib_pm.o
+ .ARM.attributes
+                0x00000142       0x30 build/default/production/_ext/1865521619/plib_port.o
+ .ARM.attributes
+                0x00000172       0x30 build/default/production/_ext/1171490990/interrupts.o
+ .ARM.attributes
+                0x000001a2       0x30 build/default/production/_ext/1171490990/initialization.o
+ .ARM.attributes
+                0x000001d2       0x30 build/default/production/_ext/1171490990/exceptions.o
+ .ARM.attributes
+                0x00000202       0x30 build/default/production/_ext/1171490990/startup_xc32.o
+ .ARM.attributes
+                0x00000232       0x30 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .ARM.attributes
+                0x00000262       0x30 build/default/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x00000292       0x30 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .ARM.attributes
+                0x000002c2       0x20 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+ .ARM.attributes
+                0x000002e2       0x30 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000312       0x22 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtn.o
+
+.comment        0x00000000       0x53
+ .comment       0x00000000       0x53 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+                                 0x54 (size before relaxing)
+ .comment       0x00000053       0x54 build/default/production/_ext/1984496892/plib_clock.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1986646378/plib_evsys.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1865468468/plib_nvic.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .comment       0x00000053       0x54 build/default/production/_ext/829342769/plib_pm.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1865521619/plib_port.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/interrupts.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/initialization.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/exceptions.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/startup_xc32.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1360937237/main.o
+ .comment       0x00000053       0x54 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .comment       0x00000053       0x54 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+
+.debug_info     0x00000000     0x73d6
+ .debug_info    0x00000000      0xa73 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_info    0x00000a73      0x335 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_info    0x00000da8      0xadc build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_info    0x00001884     0x18b7 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_info    0x0000313b      0x5a4 build/default/production/_ext/829342769/plib_pm.o
+ .debug_info    0x000036df      0xc5a build/default/production/_ext/1865521619/plib_port.o
+ .debug_info    0x00004339      0xb0b build/default/production/_ext/1171490990/interrupts.o
+ .debug_info    0x00004e44      0x78a build/default/production/_ext/1171490990/initialization.o
+ .debug_info    0x000055ce      0x3ee build/default/production/_ext/1171490990/exceptions.o
+ .debug_info    0x000059bc      0x4dc build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_info    0x00005e98      0x295 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_info    0x0000612d      0xfb3 build/default/production/_ext/1360937237/main.o
+ .debug_info    0x000070e0      0x2d0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .debug_info    0x000073b0       0x26 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+
+.debug_abbrev   0x00000000      0xe41
+ .debug_abbrev  0x00000000      0x104 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_abbrev  0x00000104       0x3b build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_abbrev  0x0000013f      0x1a7 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_abbrev  0x000002e6      0x2e5 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_abbrev  0x000005cb       0xec build/default/production/_ext/829342769/plib_pm.o
+ .debug_abbrev  0x000006b7      0x1c7 build/default/production/_ext/1865521619/plib_port.o
+ .debug_abbrev  0x0000087e       0xa6 build/default/production/_ext/1171490990/interrupts.o
+ .debug_abbrev  0x00000924       0xd5 build/default/production/_ext/1171490990/initialization.o
+ .debug_abbrev  0x000009f9       0x3e build/default/production/_ext/1171490990/exceptions.o
+ .debug_abbrev  0x00000a37      0x11f build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_abbrev  0x00000b56       0x53 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_abbrev  0x00000ba9      0x256 build/default/production/_ext/1360937237/main.o
+ .debug_abbrev  0x00000dff       0x2e /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .debug_abbrev  0x00000e2d       0x14 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+
+.debug_aranges  0x00000000      0x2e8
+ .debug_aranges
+                0x00000000       0x20 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_aranges
+                0x00000020       0x20 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_aranges
+                0x00000040       0x38 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_aranges
+                0x00000078       0x90 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_aranges
+                0x00000108       0x40 build/default/production/_ext/829342769/plib_pm.o
+ .debug_aranges
+                0x00000148       0x70 build/default/production/_ext/1865521619/plib_port.o
+ .debug_aranges
+                0x000001b8       0x20 build/default/production/_ext/1171490990/interrupts.o
+ .debug_aranges
+                0x000001d8       0x20 build/default/production/_ext/1171490990/initialization.o
+ .debug_aranges
+                0x000001f8       0x48 build/default/production/_ext/1171490990/exceptions.o
+ .debug_aranges
+                0x00000240       0x28 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_aranges
+                0x00000268       0x20 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_aranges
+                0x00000288       0x20 build/default/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x000002a8       0x20 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .debug_aranges
+                0x000002c8       0x20 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+
+.debug_ranges   0x00000000      0x1f8
+ .debug_ranges  0x00000000       0x10 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_ranges  0x00000010       0x10 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_ranges  0x00000020       0x28 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_ranges  0x00000048       0x80 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_ranges  0x000000c8       0x30 build/default/production/_ext/829342769/plib_pm.o
+ .debug_ranges  0x000000f8       0x60 build/default/production/_ext/1865521619/plib_port.o
+ .debug_ranges  0x00000158       0x10 build/default/production/_ext/1171490990/interrupts.o
+ .debug_ranges  0x00000168       0x10 build/default/production/_ext/1171490990/initialization.o
+ .debug_ranges  0x00000178       0x38 build/default/production/_ext/1171490990/exceptions.o
+ .debug_ranges  0x000001b0       0x18 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_ranges  0x000001c8       0x10 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_ranges  0x000001d8       0x10 build/default/production/_ext/1360937237/main.o
+ .debug_ranges  0x000001e8       0x10 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+
+.debug_line     0x00000000     0x1893
+ .debug_line    0x00000000      0x244 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_line    0x00000244       0x66 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_line    0x000002aa      0x2a9 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_line    0x00000553      0x44f build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_line    0x000009a2      0x260 build/default/production/_ext/829342769/plib_pm.o
+ .debug_line    0x00000c02      0x2bc build/default/production/_ext/1865521619/plib_port.o
+ .debug_line    0x00000ebe       0xec build/default/production/_ext/1171490990/interrupts.o
+ .debug_line    0x00000faa      0x268 build/default/production/_ext/1171490990/initialization.o
+ .debug_line    0x00001212       0xc6 build/default/production/_ext/1171490990/exceptions.o
+ .debug_line    0x000012d8      0x17f build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_line    0x00001457       0x5f build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_line    0x000014b6      0x1f3 build/default/production/_ext/1360937237/main.o
+ .debug_line    0x000016a9      0x12d /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .debug_line    0x000017d6       0xbd /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+
+.debug_str      0x00000000      0x1fb
+ .debug_str     0x00000000       0x1e build/default/production/_ext/1984496892/plib_clock.o
+ .debug_str     0x0000001e        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_str     0x0000001e        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_str     0x0000001e       0x26 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_str     0x00000044        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .debug_str     0x00000044        0xb build/default/production/_ext/1865521619/plib_port.o
+ .debug_str     0x0000004f        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .debug_str     0x0000004f       0x63 build/default/production/_ext/1171490990/initialization.o
+ .debug_str     0x000000b2        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .debug_str     0x000000b2       0x2f build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_str     0x000000e1        0x0 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_str     0x000000e1       0x1d build/default/production/_ext/1360937237/main.o
+ .debug_str     0x000000fe        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+ .debug_str     0x000000fe       0xfd /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+
+.debug_frame    0x00000000      0x44c
+ .debug_frame   0x00000000       0x20 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_frame   0x00000020       0x20 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_frame   0x00000040       0x50 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_frame   0x00000090      0x120 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_frame   0x000001b0       0x60 build/default/production/_ext/829342769/plib_pm.o
+ .debug_frame   0x00000210       0xcc build/default/production/_ext/1865521619/plib_port.o
+ .debug_frame   0x000002dc       0x20 build/default/production/_ext/1171490990/interrupts.o
+ .debug_frame   0x000002fc       0x28 build/default/production/_ext/1171490990/initialization.o
+ .debug_frame   0x00000324       0x70 build/default/production/_ext/1171490990/exceptions.o
+ .debug_frame   0x00000394       0x38 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_frame   0x000003cc       0x20 build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_frame   0x000003ec       0x2c build/default/production/_ext/1360937237/main.o
+ .debug_frame   0x00000418       0x34 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+
+.debug_loc      0x00000000      0x6f2
+ .debug_loc     0x00000000       0x45 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_loc     0x00000045      0x30b build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_loc     0x00000350       0x63 build/default/production/_ext/829342769/plib_pm.o
+ .debug_loc     0x000003b3      0x226 build/default/production/_ext/1865521619/plib_port.o
+ .debug_loc     0x000005d9       0x45 build/default/production/_ext/1171490990/initialization.o
+ .debug_loc     0x0000061e       0x20 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_loc     0x0000063e       0x4a build/default/production/_ext/1903470166/nonsecure_entry.o
+ .debug_loc     0x00000688       0x56 build/default/production/_ext/1360937237/main.o
+ .debug_loc     0x000006de       0x14 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+
+.stack          0x20000240      0x100
+ .stack         0x20000240      0x100 stack
+
+.bss%1          0x20000000       0x20
+ .bss           0x20000000       0x1c /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+ .bss           0x2000001c        0x4 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+
+.eh_frame%z1    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+
+.text.CLOCK_Initialize%3
+                0x00000124       0xf0
+ .text.CLOCK_Initialize
+                0x00000124       0xf0 build/default/production/_ext/1984496892/plib_clock.o
+                0x00000124                CLOCK_Initialize
+
+.text.__pic32c_data_initialization%4
+                0x00000214       0x94
+ .text.__pic32c_data_initialization
+                0x00000214       0x94 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libpic32c.a(data_init.o)
+                0x00000214                __pic32c_data_initialization
+
+.text.Reset_Handler%5
+                0x000002a8       0x54
+ .text.Reset_Handler
+                0x000002a8       0x54 build/default/production/_ext/1171490990/startup_xc32.o
+                0x000002a8                Reset_Handler
+
+.text%6         0x000002fc       0x50
+ .text          0x000002fc       0x50 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/crtbegin.o
+
+.text.__libc_init_array%7
+                0x0000034c       0x50
+ .text.__libc_init_array
+                0x0000034c       0x50 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v8-m.base/nofp/libc_nano.a(lib_a-init.o)
+                0x0000034c                __libc_init_array
+
+.text.PM_Initialize%8
+                0x0000039c       0x3a
+ .text.PM_Initialize
+                0x0000039c       0x3a build/default/production/_ext/829342769/plib_pm.o
+                0x0000039c                PM_Initialize
+
+.text.main%9    0x000003d6       0x34
+ .text.main     0x000003d6       0x34 build/default/production/_ext/1360937237/main.o
+                0x000003d6                main
+
+.text%10        0x0000040a       0x32
+ .text          0x0000040a       0x32 /opt/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v8-m.base/nofp/libgcc.a(cmse_nonsecure_call.o)
+                0x0000040a                __gnu_cmse_nonsecure_call
+
+.text.SYS_Initialize%11
+                0x0000043c       0x28
+ .text.SYS_Initialize
+                0x0000043c       0x28 build/default/production/_ext/1171490990/initialization.o
+                0x0000043c                SYS_Initialize
+
+.dinit%12       0x00000464       0x20
+ .dinit         0x00000464       0x20 data_init
+
+.text.NVIC_Initialize%13
+                0x00000484       0x1e
+ .text.NVIC_Initialize
+                0x00000484       0x1e build/default/production/_ext/1865468468/plib_nvic.o
+                0x00000484                NVIC_Initialize
+
+.text.PORT_Initialize%14
+                0x000004a2       0x16
+ .text.PORT_Initialize
+                0x000004a2       0x16 build/default/production/_ext/1865521619/plib_port.o
+                0x000004a2                PORT_Initialize
+
+.text.NVMCTRL_Initialize%15
+                0x000004b8       0x12
+ .text.NVMCTRL_Initialize
+                0x000004b8       0x12 build/default/production/_ext/1593096446/plib_nvmctrl.o
+                0x000004b8                NVMCTRL_Initialize
+
+.text.EVSYS_Initialize%16
+                0x000004ca        0x2
+ .text.EVSYS_Initialize
+                0x000004ca        0x2 build/default/production/_ext/1986646378/plib_evsys.o
+                0x000004ca                EVSYS_Initialize
+
+.text.Dummy_Handler%17
+                0x000004cc        0x2
+ .text.Dummy_Handler
+                0x000004cc        0x2 build/default/production/_ext/1171490990/interrupts.o
+                0x000004cc                SVCall_Handler
+                0x000004cc                SERCOM0_2_Handler
+                0x000004cc                EVSYS_0_Handler
+                0x000004cc                TRNG_Handler
+                0x000004cc                ADC_RESRDY_Handler
+                0x000004cc                TC2_Handler
+                0x000004cc                AC_Handler
+                0x000004cc                DMAC_OTHER_Handler
+                0x000004cc                SysTick_Handler
+                0x000004cc                PendSV_Handler
+                0x000004cc                EVSYS_3_Handler
+                0x000004cc                SERCOM0_OTHER_Handler
+                0x000004cc                SERCOM0_0_Handler
+                0x000004cc                RTC_Handler
+                0x000004cc                SERCOM1_OTHER_Handler
+                0x000004cc                EVSYS_1_Handler
+                0x000004cc                DMAC_0_Handler
+                0x000004cc                WDT_Handler
+                0x000004cc                TRAM_Handler
+                0x000004cc                EVSYS_NSCHK_Handler
+                0x000004cc                EIC_EXTINT_1_Handler
+                0x000004cc                TC1_Handler
+                0x000004cc                EIC_EXTINT_0_Handler
+                0x000004cc                DAC_EMPTY_Handler
+                0x000004cc                PAC_Handler
+                0x000004cc                Dummy_Handler
+                0x000004cc                DMAC_2_Handler
+                0x000004cc                SERCOM0_1_Handler
+                0x000004cc                DMAC_1_Handler
+                0x000004cc                EIC_EXTINT_2_Handler
+                0x000004cc                SERCOM1_1_Handler
+                0x000004cc                NVMCTRL_Handler
+                0x000004cc                PORT_Handler
+                0x000004cc                SYSTEM_Handler
+                0x000004cc                SERCOM1_0_Handler
+                0x000004cc                SERCOM2_1_Handler
+                0x000004cc                SERCOM1_2_Handler
+                0x000004cc                SERCOM2_2_Handler
+                0x000004cc                EIC_EXTINT_3_Handler
+                0x000004cc                PTC_Handler
+                0x000004cc                EVSYS_2_Handler
+                0x000004cc                SERCOM2_OTHER_Handler
+                0x000004cc                FREQM_Handler
+                0x000004cc                DAC_UNDERRUN_A_Handler
+                0x000004cc                EIC_OTHER_Handler
+                0x000004cc                ADC_OTHER_Handler
+                0x000004cc                DMAC_3_Handler
+                0x000004cc                SERCOM2_0_Handler
+
+.text.NonMaskableInt_Handler%18
+                0x000004ce        0x2
+ .text.NonMaskableInt_Handler
+                0x000004ce        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x000004ce                NonMaskableInt_Handler
+
+.text.HardFault_Handler%19
+                0x000004d0        0x2
+ .text.HardFault_Handler
+                0x000004d0        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x000004d0                HardFault_Handler
+
+.text.Dummy_App_Func%20
+                0x000004d2        0x2
+ .text.Dummy_App_Func
+                0x000004d2        0x2 build/default/production/_ext/1171490990/startup_xc32.o
+                0x000004d2                __xc32_on_bootstrap
+                0x000004d2                _on_reset
+                0x000004d2                _on_bootstrap
+                0x000004d2                __xc32_on_reset
+                0x000004d2                Dummy_App_Func

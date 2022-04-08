@@ -1,0 +1,14 @@
+configName: default
+folderName: LEDBlink_NonSecure
+format_version: v1.0
+frameworkPath: ..\..\..\Harmony3
+processor: ATSAML11E16A
+projectName: LEDBlink_TrustZone_NonSecure
+settings:
+  PackageFilter: bsp;core;core_apps_sam_l10_l11;csp;csp_apps_sam_l10_l11;dev_packs;quick_docs
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'true'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: OVERWRITE
+  DFPPath: .\dev_packs\Microchip\SAML11_DFP\4.3.139\atdf\ATSAML11E16A.atdf
