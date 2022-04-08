@@ -65,7 +65,7 @@ int main (void)
 
 ```
 - The above code is from "main.c" located in LEDBlinkSecure\secure\firmware\src
-- The implementation works by simply generating an interrupt every half second, changing an internal varible named LEDstate, which toggles the logic level of PA07 on each call. 
+- The implementation works by simply generating an interrupt every half second, changing an internal varible named LEDstate, and calling LED0_Toggle() (when LEDstate is true) which toggles the logic level of PA07 on each call. 
 ### Non secure implementation:
 ```C
 static bool volatile led_status = false;
